@@ -9,10 +9,20 @@ body {
     color: #e0e0e0;
 }
 
-h1 {
-    text-align: left;
-    color: #5ba4e9;
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('fonts/StarJedi.ttf') format('truetype');
 }
+
+.star-wars-text {
+    font-family: 'Star Jedi', sans-serif;
+    font-size: 2em; /* Ajuste o tamanho conforme necessário */
+    color: #ffff00; /* Cor amarela típica do Star Wars */
+    text-align: left; /* Centraliza o texto */
+    text-shadow: 2px 2px 5px black; /* Sombra no texto para efeito */
+}
+
+
 
 .container {
     display: flex;
