@@ -8,17 +8,18 @@
 </head>
 <body>
     <h1>🌌 Star Wars API Client</h1>
-    <select id="endpoint">
-        <option value="people">People</option>
-        <option value="planets">Planets</option>
-        <option value="starships">Starships</option>
-        <option value="vehicles">Vehicles</option>
-        <option value="species">Species</option>
-    </select>
-    <input type="number" id="id-input" placeholder="ID" min="1" />
+    <div class="container">
+        <select id="endpoint">
+            <option value="people">People</option>
+            <option value="planets">Planets</option>
+            <option value="starships">Starships</option>
+            <option value="vehicles">Vehicles</option>
+            <option value="species">Species</option>
+        </select>
+        <input type="number" id="id-input" placeholder="ID" min="1" />
+    </div>
     <button id="fetch-button">Buscar</button>
-    <pre id="result"></pre>
-
+    <pre id="result" class="hidden"></pre>
     <script src="script.js"></script>
 </body>
 </html>

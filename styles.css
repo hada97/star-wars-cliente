@@ -1,65 +1,97 @@
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg'); /* Adicione a imagem de fundo */
-    background-size: cover; /* Cobrir toda a tela */
-    background-position: center; /* Centralizar a imagem */
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 20px;
-    color: #e0e0e0; /* Texto claro */
+    color: #e0e0e0;
 }
 
 h1 {
     text-align: left;
-    color: #5ba4e9; /* Amarelo para destaque */
+    color: #5ba4e9;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+/* Estilos do select */
 select {
     padding: 10px;
     font-size: 16px;
-    margin: 10px 0;
+    margin-right: 10px;
     width: 100%;
-    max-width: 250px;
-    border: 1px solid #444; /* Bordas mais escuras */
+    max-width: 350px;
+    border: 1px solid #444;
     border-radius: 5px;
-    background-color: rgba(30, 30, 30, 0.8); /* Fundo do select com transparência */
-    color: #e0e0e0; /* Texto claro no select */
+    background-color: rgba(30, 30, 30, 0.8);
+    color: #e0e0e0;
 }
 
+/* Estilos do input */
 input {
     padding: 10px;
     font-size: 16px;
-    margin: 10px 0;
     width: 100%;
-    max-width: 50px; /* Limitar a largura do campo ID */
-    border: 1px solid #444; /* Bordas mais escuras */
+    max-width: 50px;
+    border: 1px solid #444;
     border-radius: 5px;
-    background-color: rgba(30, 30, 30, 0.8); /* Fundo do input com transparência */
-    color: #e0e0e0; /* Texto claro no input */
+    background-color: rgba(30, 30, 30, 0.8);
+    color: #e0e0e0;
 }
 
+/* Estilos do botão */
+/* Estilos do botão */
 button {
     padding: 10px;
     font-size: 16px;
-    background-color: #7b55c0; /* Azul padrão */
+    background-color: rgba(123, 85, 192, 0); /* Tornando o fundo transparente */
+    border: 1px solid #444;
     color: white;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
-    max-width: 250px;
+    max-width: 400px;
 }
 
 button:hover {
-    background-color: #830f79; /* Azul mais escuro ao passar o mouse */
+    background-color: rgba(131, 15, 121, 0.7); /* Ajuste a opacidade no hover */
 }
 
+
+/* Estilos do campo pre */
 pre {
-    background-color: rgba(30, 30, 30, 0.8); /* Fundo escuro para o resultado com transparência */
-    border: 1px solid #444; /* Bordas mais escuras */
+    background-color: rgba(30, 30, 30, 0.5);
+    border: 1px solid #444;
     padding: 10px;
     border-radius: 5px;
-    max-height: 400px;
+    max-height: 600px;
+    width: 100%;
+    max-width: 400px;
     overflow-y: auto;
     white-space: pre-wrap;
-    color: #e0e0e0; /* Texto claro */
+    color: #e0e0e0;
 }
+
+/* Estilos para a barra de rolagem */
+pre::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+pre::-webkit-scrollbar-thumb {
+    background-color: rgba(100, 100, 100, 0.5); /* Cor da barra de rolagem */
+    border-radius: 5px;
+}
+
+pre::-webkit-scrollbar-track {
+    background: transparent; /* Fundo transparente para a trilha */
+}
+
+

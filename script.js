@@ -1,4 +1,5 @@
 
+
 document.getElementById('fetch-button').addEventListener('click', async () => {
     const endpoint = document.getElementById('endpoint').value;
     const id = document.getElementById('id-input').value;
@@ -13,7 +14,4 @@ document.getElementById('fetch-button').addEventListener('click', async () => {
         document.getElementById('result').textContent = 'Erro: ' + error.message;
     }
     
-    
 });
-
-
