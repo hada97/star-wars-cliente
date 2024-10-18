@@ -18,7 +18,7 @@ select {
     font-size: 16px;
     margin: 10px 0;
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     border: 1px solid #444; /* Bordas mais escuras */
     border-radius: 5px;
     background-color: rgba(30, 30, 30, 0.8); /* Fundo do select com transparência */
@@ -30,7 +30,7 @@ input {
     font-size: 16px;
     margin: 10px 0;
     width: 100%;
-    max-width: 80px; /* Limitar a largura do campo ID */
+    max-width: 50px; /* Limitar a largura do campo ID */
     border: 1px solid #444; /* Bordas mais escuras */
     border-radius: 5px;
     background-color: rgba(30, 30, 30, 0.8); /* Fundo do input com transparência */
@@ -46,7 +46,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 button:hover {
