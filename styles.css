@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Adicione a imagem de fundo */
+    background-size: cover; /* Cobrir toda a tela */
+    background-position: center; /* Centralizar a imagem */
+    margin: 0;
+    padding: 20px;
+    color: #e0e0e0; /* Texto claro */
+}
+
+h1 {
+    text-align: left;
+    color: #5ba4e9; /* Amarelo para destaque */
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #444; /* Bordas mais escuras */
+    border-radius: 5px;
+    background-color: rgba(30, 30, 30, 0.8); /* Fundo do select com transparência */
+    color: #e0e0e0; /* Texto claro no select */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 80px; /* Limitar a largura do campo ID */
+    border: 1px solid #444; /* Bordas mais escuras */
+    border-radius: 5px;
+    background-color: rgba(30, 30, 30, 0.8); /* Fundo do input com transparência */
+    color: #e0e0e0; /* Texto claro no input */
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #7b55c0; /* Azul padrão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+button:hover {
+    background-color: #830f79; /* Azul mais escuro ao passar o mouse */
+}
+
+pre {
+    background-color: rgba(30, 30, 30, 0.8); /* Fundo escuro para o resultado com transparência */
+    border: 1px solid #444; /* Bordas mais escuras */
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 400px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    color: #e0e0e0; /* Texto claro */
+}
