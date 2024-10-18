@@ -1,12 +1,15 @@
+
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg');
+    background-image: url('1.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* Faz a imagem de fundo ficar fixa */
     margin: 0;
-    padding: 20px;
+    padding: 0; /* Removendo o padding do body */
     color: #e0e0e0;
+    height: 100vh; /* Garante que o body ocupe a altura total da tela */
 }
 
 @font-face {
@@ -17,11 +20,10 @@ body {
 .star-wars-text {
     font-family: 'Star Jedi', sans-serif;
     font-size: 2em; /* Ajuste o tamanho conforme necessário */
-    color: #ffff00; /* Cor amarela típica do Star Wars */
+    color: #e0e0e0; /* Cor amarela típica do Star Wars */
     text-align: left; /* Centraliza o texto */
     text-shadow: 2px 2px 5px black; /* Sombra no texto para efeito */
 }
-
 
 
 .container {
@@ -57,7 +59,6 @@ input {
     color: #e0e0e0;
 }
 
-/* Estilos do botão */
 /* Estilos do botão */
 button {
     padding: 10px;
