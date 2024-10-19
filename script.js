@@ -18,3 +18,44 @@ document.getElementById('fetch-button').addEventListener('click', async () => {
         resultElement.classList.remove('hidden'); // Mostra o <pre> com a mensagem de erro
     }
 });
+
+
+
+
+const images = [
+    './imagens/1.jpg',
+    './imagens/2.jpg',
+    './imagens/3.jpg',
+    './imagens/4.jpg',
+    './imagens/5.jpg',
+    './imagens/6.jpg',
+    './imagens/7.jpg',
+    './imagens/8.jpg',
+    './imagens/9.jpg',
+    './imagens/10.jpg',
+    './imagens/11.jpg',
+    './imagens/12.jpg',
+    './imagens/13.jpg',
+    './imagens/14.jpg',
+    './imagens/15.jpg',
+    './imagens/16.jpg',
+];
+
+let currentIndex = 0;
+
+function updateBackground() {
+    document.body.style.backgroundImage = `url('${images[currentIndex]}')`;
+}
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateBackground();
+});
+
+document.getElementById('prevBtn').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateBackground();
+});
+
+// Inicializa a primeira imagem de fundo
+updateBackground();
