@@ -10,8 +10,8 @@ Este projeto é um cliente para a API do Star Wars (SWAPI), permitindo que os us
 
 - Seleção de diferentes endpoints da API.
 - Entrada de ID para buscar recursos específicos.
-- Exibição dos dados retornados em uma tabela formatada.
-- Estilo escuro com imagem de fundo.
+- Exibição dos dados retornados em JSON
+- Fundo dinâmico
 
 ## 🛠 Tecnologias
 
@@ -42,10 +42,4 @@ Para começar a utilizar este projeto, siga as etapas abaixo:
 
 4. Para visualizar localmente, você pode usar uma extensão de servidor local ou abrir diretamente no navegador.
 
-## 📸 Imagem de Fundo
 
-Certifique-se de ter uma imagem chamada `background.jpg` na mesma pasta que os arquivos do projeto para que a imagem de fundo apareça corretamente.
-
-## 💬 Contribuições
-
-Contribuições são bem-vindas! Se você tem alguma sugestão ou melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
