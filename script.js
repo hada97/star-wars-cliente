@@ -41,8 +41,13 @@ const images = [
 let currentIndex = 0;
 
 function updateBackground() {
-    document.body.style.backgroundImage = `url('${images[currentIndex]}')`;
+    if (images.length > 0) {
+        document.body.style.backgroundImage = `url('${images[currentIndex]}')`;
+    } else {
+        document.body.style.backgroundColor = 'brack'; // Fundo branco se não houver imagens
+    }
 }
+
 
 document.getElementById('nextBtn').addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % images.length;
