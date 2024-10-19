@@ -1,15 +1,13 @@
-
-
 body {
+    margin: 0;
+    padding: 0; /* Removendo o padding do body */
+    height: 100vh; /* Garante que o body ocupe a altura total da tela */
     font-family: Arial, sans-serif;
+    color: #e0e0e0;
     background-image: url('./imagens/5.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Faz a imagem de fundo ficar fixa */
-    margin: 0;
-    padding: 0; /* Removendo o padding do body */
-    color: #e0e0e0;
-    height: 100vh; /* Garante que o body ocupe a altura total da tela */
 }
 
 @font-face {
@@ -25,7 +23,6 @@ body {
     text-shadow: 2px 2px 5px black; /* Sombra no texto para efeito */
 }
 
-
 .container {
     display: flex;
     align-items: center;
@@ -34,79 +31,67 @@ body {
     margin-bottom: 10px;
 }
 
-
 select {
-    appearance: none;
+    appearance: none; /* Remove o estilo padrão do select */
     padding: 10px;
-    font-size: 16px;
-    margin-right: 10px;
     width: 100%;
     max-width: 350px;
+    font-size: 16px;
+    margin-right: 10px;
     border: 1px solid #444;
     border-radius: 5px;
     background-color: transparent; /* Fundo transparente */
     color: #e0e0e0; /* Cor do texto */
-    appearance: none; /* Remove o estilo padrão do select */
     outline: none; /* Remove o contorno ao focar */
+    cursor: pointer;
 }
-
 
 input {
     padding: 10px;
-    font-size: 16px;
     width: 100%;
     max-width: 50px;
+    font-size: 16px;
     border: 1px solid #444;
     border-radius: 5px;
     background-color: transparent;
     color: #e0e0e0;
+    cursor: pointer;
 }
-
 
 button {
     padding: 10px;
-    font-size: 16px;
-    background-color: rgba(123, 85, 192, 0); /* Tornando o fundo transparente */
-    border: 1px solid #444;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
     width: 100%;
     max-width: 400px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: rgba(123, 85, 192, 0); /* Tornando o fundo transparente */
+    color: white;
+    cursor: pointer;
 }
 
-input:hover {
-    background-color: rgba(255, 255, 255, 0.24); /* Ajuste a opacidade no hover */
-}
-
-button:hover {
-    background-color: rgba(255, 255, 255, 0.24); /* Ajuste a opacidade no hover */
-}
-
+input:hover,
+button:hover,
 select:hover {
     background-color: rgba(255, 255, 255, 0.24); /* Ajuste a opacidade no hover */
 }
 
-
-
 pre {
-    background-color: transparent;
-    border: 1px solid #444;
-    padding: 10px;
-    border-radius: 5px;
-    max-height: 600px;
-    width: 100%;
     max-width: 400px;
+    width: 100%;
+    max-height: 600px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: transparent;
     overflow-y: auto;
     white-space: pre-wrap;
     color: #e0e0e0;
 }
 
-
 pre::-webkit-scrollbar {
     width: 10px; /* Largura da barra de rolagem */
 }
-
 
 pre::-webkit-scrollbar-thumb {
     background-color: rgba(100, 100, 100, 0.5); /* Cor da barra de rolagem */
@@ -121,19 +106,21 @@ pre::-webkit-scrollbar-track {
     display: none;
 }
 
+.containerbutton {
+    display: flex; /* Para que os botões fiquem lado a lado */
+    gap: 0; /* Espaço entre os botões */
+}
 
 .button-container button {
     padding: 10px;
+    width: 198px; /* Largura fixa para os botões */
     font-size: 16px;
-    width: 100%;
-    width: 200px; /* Largura fixa para os botões */
-    padding: 10px;
     background-color: transparent; /* Fundo transparente */
     border: 1px solid #444;
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-top: 10px; /* Margem superior */
 }
 
 .button-container button:hover {

@@ -20,8 +20,6 @@ document.getElementById('fetch-button').addEventListener('click', async () => {
 });
 
 
-
-
 const images = [
     './imagens/1.jpg',
     './imagens/2.jpg',
