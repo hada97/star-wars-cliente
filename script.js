@@ -35,7 +35,6 @@ const images = [
     './imagens/10.jpg',
     './imagens/11.jpg',
     './imagens/12.jpg',
-    './imagens/13.jpg',
     './imagens/14.jpg',
     './imagens/15.jpg',
     './imagens/16.jpg',

@@ -133,6 +133,7 @@ pre::-webkit-scrollbar-track {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .button-container button:hover {
