@@ -56,3 +56,7 @@ document.getElementById('prevBtn').addEventListener('click', () => {
 
 // Inicializa a primeira imagem de fundo
 updateBackground();
+
+
+
+

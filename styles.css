@@ -32,7 +32,6 @@ body {
 }
 
 select {
-    appearance: none; /* Remove o estilo padrão do select */
     padding: 10px;
     width: 100%;
     max-width: 350px;
@@ -41,9 +40,10 @@ select {
     border: 1px solid #444;
     border-radius: 5px;
     background-color: transparent; /* Fundo transparente */
-    color: #e0e0e0; /* Cor do texto */
+    color: rgb(223, 223, 223);
     outline: none; /* Remove o contorno ao focar */
     cursor: pointer;
+    appearance: none;
 }
 
 input {
@@ -54,7 +54,7 @@ input {
     border: 1px solid #444;
     border-radius: 5px;
     background-color: transparent;
-    color: #e0e0e0;
+    color: rgb(223, 223, 223);
     cursor: pointer;
 }
 
@@ -66,7 +66,7 @@ button {
     border: 1px solid #444;
     border-radius: 5px;
     background-color: rgba(123, 85, 192, 0); /* Tornando o fundo transparente */
-    color: white;
+    color: rgb(223, 223, 223);
     cursor: pointer;
 }
 
@@ -117,7 +117,7 @@ pre::-webkit-scrollbar-track {
     font-size: 16px;
     background-color: transparent; /* Fundo transparente */
     border: 1px solid #444;
-    color: white;
+    color: rgb(223, 223, 223);
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px; /* Margem superior */
@@ -126,3 +126,5 @@ pre::-webkit-scrollbar-track {
 .button-container button:hover {
     background-color: rgba(255, 255, 255, 0.24); /* Ajuste a opacidade no hover */
 }
+
+
