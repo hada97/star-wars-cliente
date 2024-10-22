@@ -31,7 +31,7 @@ Para começar a utilizar este projeto, siga as etapas abaixo:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seuusuario/star-wars-client
+    git clone https://github.com/hada97/star-wars-client
     ```
 2. Navegue até o diretório do projeto:
     ```bash
